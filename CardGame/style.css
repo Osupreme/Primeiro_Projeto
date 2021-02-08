@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+ background-color: aliceblue;
+ height: 100vh;
+ padding-top: 5rem;
+}
+
+.container{
+    width: 22rem;
+    margin: 0 auto;
+    
+}
+
+.table_board{
+    width: 50vh;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.5rem;
+
+    place-items: center;
+
+    background-color: rgb(255, 204, 0);
+    padding: 0.5rem;
+    border-radius: 15px;
+    box-shadow: 10px 15px 1px 0px darkslategray;
+}
+
+.table_board_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffcf7f;
+    border-radius: 15px;
+    width: 5rem;
+    height: 6rem;
+}
+
+.open{
+    background-color: red;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 1px magenta;
+}
