@@ -18,9 +18,9 @@ pairs.forEach(pair => {
 });
 
 function EventClicked(value){
-    const ClickedCard = value.target
+    const KaDeA = value.target
 
-    ClickedCard.className.add('open')
+    KaDeA.createElement.add('open')
 
     //ClickedAdd.dataset.Select = true
    
